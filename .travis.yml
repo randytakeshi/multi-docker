@@ -17,7 +17,7 @@ after_success:
   #Login to docker CLI
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
   #Push built images to docker hub
-  - docker push randytakeshi/multi-client
-  - docker push randytakeshi/multi-nginx
-  - docker push randytakeshi/multi-server
-  - docker push randytakeshi/multi-worker
+  - docker push rtakeshi1/multi-client
+  - docker push rtakeshi1/multi-nginx
+  - docker push rtakeshi1/multi-server
+  - docker push rtakeshi1/multi-worker
